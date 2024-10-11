@@ -1,0 +1,284 @@
+<!doctype html>
+<html>
+        <head>
+                <title>my dua</title>
+                <style>
+                  *{
+                      Padding:0px ;
+                      Margin:0px ;
+                      Box-sizing:content-box;
+                      User-select:none;
+                  }
+                .container{
+                   Padding:0px ;
+                   Margin:0px ;
+                   Box-sizing:content-box
+                   Position:fixed ;
+                   Width:100%
+                 }
+                .post{
+                    Position:sticky;
+                    Width:100
+                }
+                .header_container{
+                   Background:#4db6ac;
+                   Display:flex ;
+                   Justify-content:space-between;
+                   Padding:15px 8px;
+                    
+                }
+               .text{
+                   Display:flex ;
+                   align-items:center ;
+                   Color:white ;
+                   Font-size:19px ;
+                   Font-weight:bolder;
+                   Text-align:right;
+                   gap:30px ;
+                   
+              }
+             .text{
+                  Border:0px ;
+                  Outline:none ;
+              }
+                .right{
+                    Background:#4db6ac;
+                    Width:30px ;
+                    Height:30px ;
+                    Cursor: pointer
+                }
+                .left{
+                    Background:#4db6ac;
+                    Width:30px ;
+                    Height:30px ;
+                    Cursor:pointer 
+                }
+                .second_header{
+                    Height:99px ;
+                    Background:linear-gradient(#4e342e, #6d4c41);
+                    Color:white;
+                    Cursor:pointer;
+                }
+               .display{
+                   Display:flex ;
+                   Justify-content:space-between;
+                   Margin-top:8px ;
+                   Padding:1px 20px ;
+                   align-items:center ;
+                   Cursor:pointer;
+               }
+              .display >.content{
+                  Font-weight:bolder;
+                  Cursor:pointer;
+              }
+             .card{
+                 Transform:translateX(50px,90px)
+             }
+              .card{
+                  Display:grid;
+                  grid-template-columns:repeat(4, 82px);
+                  grid-row-gap:14px ;
+                  grid-column-gap:8px ;
+                  Padding:10px 2px ;
+                  
+              }
+             .card-1{
+                 Height:125px ;
+                 box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 70px 0 rgba(0, 0, 0, 0.2);
+                 Border:1px solid #bdbdbd ;
+                 Border-radius:7px ;
+                 Color:#00897b;
+                 Font-weight:bolder;
+                 Display:flex ;
+                 Align-items:flex-end ;
+                 Justify-content:center ;
+                 Padding:3px;
+                 Font-size:12px ;
+                 User-select:none ;
+             }
+            .header1{
+                Background:#00897b;
+                Font-weight:bolder;
+                Width:full;
+                Height:20px ;
+                Color:white ;
+                Margin:0px ;
+                Text-align:center ;
+                Border-top-right-radius:3px;
+                Border-top-left-radius:3px;
+                User-select:none ;
+            }
+           .text2{
+               User-select:none;
+           }
+           .card-2{
+                 Height:130px ;
+                 box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+                 Border:1px solid #e0e0e0 ;
+                 Border-radius:7px ;
+                 Color:#00897b;
+           }
+          .span{
+               Display:flex ;
+               Font-weight:bolder;
+               Font-size:12px ;
+               Line-height:200px ;
+               Justify-content:center 
+           }
+          .pray{
+              Height:30px ;
+              Width:30px;
+              Background:white ;
+          }
+          .footer{
+             Padding:14px 15px ;
+             Position:fixed ;
+             Background:#00695c;
+             Width:100%;
+             Bottom:0px ;
+             Font-size:15px ;
+             Font-weight:bolder;
+             Font-style:oblique; 
+             Display:flex ;
+             Color:white ;
+          }
+         .wrap{
+           Display:flex ;
+           align-items:center ;
+           gap:15px
+           
+         }
+        .main{
+             Position:relative ;
+             Display:inline-block ;
+         }
+        .side_nav{
+           Position:fixed ;
+           Height:0px ;
+           Transiton:heights 1;
+           Overflow-x:hidden ;
+           Width:300px;
+           box-shadow: 0 18px 36px rgba(0,0,0,0.30), 0 14px 11px rgba(0,0,0,0.22);
+           Background:#fafafa;
+           Left:0px ;
+           Bottom:10px ;
+           Text-align:left;
+           Z-index:4;
+           Top:0px ;
+           User-select:none ;
+        }
+       .main:hover >.side_nav{
+            Height:500px ;
+        }
+       .side_nav a{
+           Padding:17px;
+           Text-decoration:none ;
+           Display:block ;
+           Color:grey;
+           Background:#fafafa; 
+           Font-size:16px ;
+           border:1px solid black 
+       }
+      .nav{
+          align-items:center ;
+          
+      }
+      .mark{
+         Height:30px;
+         Width:30px;
+         Background:lightgrey ;
+         Border-radius:3px ;
+      }  
+                 
+      </style>
+    </head>
+   <body>
+     <div class="container">
+       <div class="post">
+        <div class="header_container">
+          <div class="text">
+           <div>🟰</div>
+           <div class="text2" >My supplications</div>
+         </div>
+       <div class="left">🔍</div>
+      </div>
+           
+         <div class="second_header">
+            <center>
+               <p>Al, Hadd, Bahrain</p>   
+               <p>16 Ramadan 1445</p> 
+            </center> 
+            
+          <div class="display">
+             <div class="content">
+                <span>imsark(fajr)</span>
+              <h2>2:11 am</h2>
+          </div>
+            <div class="content">
+               <span>iftar(magrib)</span>
+                <h2>3:35 pm</h2>
+            </div>
+             <div class="content">⚙️</div>
+           </div>
+      </div>
+        </div>
+        </div>
+       
+         <div class="card">
+           <div class="card-2">
+             <div class="header1">Daily</div>
+              <span class="span">Morning</span>
+            </div>
+           <div class="card-2">
+           <div class="header1">Daily</div>
+            <span class="span">Evening</span>
+            </div>
+             <div class="card-2">
+            <div class="header1">Daily</div>
+            <span class="span">Night/dart</span>
+           </div>
+          <div class="card-1">Home</div>
+            <div class="card-1">disease</div>
+             <div class="card-1">Mosque</div>
+              <div class="card-1">Travel</div>
+               <div class="card-1">Garments</div>
+                <div class="card-1">Toilet</div>
+                 <div class="card-1">Food</div>
+                  <div class="card-1">Rain</div>
+                   <div class="card-1">Marriage</div>
+                   <div class="card-1">Sleep</div>
+                   <div class="card-1">Ablution</div>
+                   <div class="card-1">Animal</div>
+                 <div class="card-1">Sickness</div>
+               <div class="card-1">Ramadan</div>
+             <div class="card-1">Children</div>
+           <div class="card-1">Parents</div>
+          <div class="card-1">Anger</div>
+          <div class="card-1">Sadness</div>
+          <div class="card-1">Happiness</div>
+           <div class="card-1">Doubt</div>
+            <div class="card-1">Repentance</div>
+             <div class="card-1">Wealth</div>
+               <div class="card-1">Hajj/Umrah</div>
+                <div class="card-1">Prasing</div>
+                 <div class="card-1">Prayer</div>
+                 <div class="card-1">Society</div>
+               <div class="card-1">Protection</div>
+             <div class="card-1">Temptation</div>
+           <div class="card-1">Knowledge</div>
+         <div class="card-1">40 Rabbana</div>
+      <div class="card-1">Menu... </div>
+ 
+   </div>
+   <br>
+   <br>
+   <br>
+     <div class="footer">
+     <div class="wrap">
+     <div class="pray"></div>
+     <div style="user-select:none ;"class="pray2">KEEP YOUR SUPPLICATIONS WITH YOU</div>
+     </div>
+   </div>  
+ 
+ </body>
+</html>
